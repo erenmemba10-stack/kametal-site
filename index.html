@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAMETAL | Kahramankazan Ticaret MTAL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="loader">
+    <img src="assets/kametal-logo.png" alt="KAMETAL">
+    <span>KAMETAL</span>
+</div>
+
+<nav class="navbar">
+    <div class="brand">
+        <img src="assets/kametal-logo.png" alt="KAMETAL Logo">
+        <div>
+            <h1>KAMETAL</h1>
+            <p>Kahramankazan Ticaret MTAL</p>
+        </div>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#alanlar">Alanlar</a>
+        <a href="#detaylar">Alan Detayları</a>
+        <a href="#okul">Okulumuz</a>
+        <a href="#iletisim">İletişim</a>
+    </div>
+
+    <div class="meb">
+        <img src="assets/meb-logo.png" alt="MEB Logo">
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</nav>
+
+<header class="hero" id="anasayfa">
+    <div class="hero-text">
+        <span class="badge">Mesleki ve Teknik Eğitim</span>
+        <h2>Geleceğin için <span>doğru yerdesin!</span></h2>
+        <p>
+            Kahramankazan Ticaret Mesleki ve Teknik Anadolu Lisesi; Bilişim Teknolojileri,
+            Muhasebe ve Finansman, Ulaştırma Hizmetleri alanlarıyla öğrencilerini geleceğe hazırlar.
+        </p>
+
+        <div class="buttons">
+            <a href="#alanlar" class="btn red">Alanları İncele</a>
+            <a href="https://kametal.meb.k12.tr/" target="_blank" class="btn">Resmi Site</a>
+            <a href="https://www.instagram.com/kametal06?igsh=dGVtbzFpYTJ1N3Fo" target="_blank" class="btn">Instagram</a>
+        </div>
+    </div>
+
+    <div class="hero-logo">
+        <img src="assets/kametal-logo.png" alt="KAMETAL">
+    </div>
+</header>
+
+<section class="stats">
+    <div class="stat"><strong>3</strong><span>Alan</span></div>
+    <div class="stat"><strong>1965</strong><span>Eğitim Geleneği</span></div>
+    <div class="stat"><strong>MTAL</strong><span>Mesleki Eğitim</span></div>
+    <div class="stat"><strong>QR</strong><span>Broşür Uyumlu</span></div>
+</section>
+
+<section class="section" id="alanlar">
+    <div class="title">
+        <h2>Alanlarımız</h2>
+        <p>Öğrencilerin ilgi ve hedeflerine göre güçlü mesleki eğitim seçenekleri.</p>
+    </div>
+
+    <div class="cards">
+        <article class="card bilisim">
+            <div class="content">
+                <div class="icon">💻</div>
+                <h3>Bilişim Teknolojileri</h3>
+                <p>Yazılım, web tasarım, ağ sistemleri ve dijital teknolojiler alanında eğitim.</p>
+                <a href="#bilisim">Detaylı Bilgi →</a>
+            </div>
+        </article>
+
+        <article class="card muhasebe">
+            <div class="content">
+                <div class="icon">📊</div>
+                <h3>Muhasebe ve Finansman</h3>
+                <p>Finans, ön muhasebe, ofis programları ve işletme süreçlerine yönelik eğitim.</p>
+                <a href="#muhasebe">Detaylı Bilgi →</a>
+            </div>
+        </article>
+
+        <article class="card ulastirma">
+            <div class="content">
+                <div class="icon">🚚</div>
+                <h3>Ulaştırma Hizmetleri</h3>
+                <p>Lojistik, taşımacılık, depo yönetimi ve dijital takip sistemleri eğitimi.</p>
+                <a href="#ulastirma">Detaylı Bilgi →</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="section details" id="detaylar">
+    <div class="title">
+        <h2>Alan Detayları</h2>
+        <p>Her alanın amacı, eğitim içeriği, kazandırdığı beceriler ve kariyer olanakları.</p>
+    </div>
+
+    <div class="detail-box" id="bilisim">
+        <img src="assets/bilisim.png" alt="Bilişim Teknolojileri">
+        <div>
+            <h3>Bilişim Teknolojileri</h3>
+            <p><strong>Alanın Amacı:</strong> Bilişim Teknolojileri alanı; yazılım, bilgisayar sistemleri, ağ teknolojileri ve dijital çözümler geliştirebilen bireyler yetiştirmeyi amaçlar.</p>
+
+            <div class="info-columns">
+                <div>
+                    <h4>Eğitim İçeriği</h4>
+                    <ul>
+                        <li>Web tasarım ve programlama</li>
+                        <li>Yazılım geliştirme</li>
+                        <li>Bilgisayar donanımı</li>
+                        <li>Ağ sistemleri</li>
+                        <li>Veri tabanı</li>
+                        <li>Siber güvenlik temelleri</li>
+                        <li>Grafik ve dijital tasarım</li>
+                        <li>Ofis programları</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Kazandırdığı Beceriler</h4>
+                    <ul>
+                        <li>Web sitesi geliştirme</li>
+                        <li>Kod yazma mantığı</li>
+                        <li>Bilgisayar bakım ve onarımı</li>
+                        <li>Ağ kurulumu</li>
+                        <li>Problem çözme</li>
+                        <li>Dijital üretim becerileri</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Kariyer Olanakları</h4>
+                    <ul>
+                        <li>Yazılım geliştirici</li>
+                        <li>Teknik servis elemanı</li>
+                        <li>Web tasarımcı</li>
+                        <li>Sistem destek personeli</li>
+                        <li>Ağ uzmanı</li>
+                        <li>Grafik tasarımcı</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Üniversite Bölümleri</h4>
+                    <ul>
+                        <li>Bilgisayar Mühendisliği</li>
+                        <li>Yazılım Mühendisliği</li>
+                        <li>Yönetim Bilişim Sistemleri</li>
+                        <li>Bilgisayar Programcılığı</li>
+                        <li>Siber Güvenlik</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-box reverse" id="muhasebe">
+        <img src="assets/muhasebe.png" alt="Muhasebe ve Finansman">
+        <div>
+            <h3>Muhasebe ve Finansman</h3>
+            <p><strong>Alanın Amacı:</strong> Muhasebe ve Finansman alanı; işletmelerin mali işlemlerini takip edebilen, finansal kayıtları düzenleyebilen ve ekonomik süreçleri yönetebilen bireyler yetiştirir.</p>
+
+            <div class="info-columns">
+                <div>
+                    <h4>Eğitim İçeriği</h4>
+                    <ul>
+                        <li>Ön muhasebe</li>
+                        <li>Finans işlemleri</li>
+                        <li>Ofis programları</li>
+                        <li>E-fatura sistemleri</li>
+                        <li>Ticari belgeler</li>
+                        <li>Şirket işlemleri</li>
+                        <li>Maliyet hesaplama</li>
+                        <li>Raporlama</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Kazandırdığı Beceriler</h4>
+                    <ul>
+                        <li>Finansal kayıt tutma</li>
+                        <li>Muhasebe programları kullanma</li>
+                        <li>Evrak düzenleme</li>
+                        <li>Analitik düşünme</li>
+                        <li>Rapor hazırlama</li>
+                        <li>İşletme süreçlerini yönetme</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Kariyer Olanakları</h4>
+                    <ul>
+                        <li>Ön muhasebe personeli</li>
+                        <li>Finans destek elemanı</li>
+                        <li>Ofis personeli</li>
+                        <li>Bankacılık destek personeli</li>
+                        <li>Muhasebe yardımcısı</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Üniversite Bölümleri</h4>
+                    <ul>
+                        <li>Muhasebe ve Finans Yönetimi</li>
+                        <li>İşletme</li>
+                        <li>Ekonomi</li>
+                        <li>Bankacılık ve Sigortacılık</li>
+                        <li>Maliye</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-box" id="ulastirma">
+        <img src="assets/ulastirma.png" alt="Ulaştırma Hizmetleri">
+        <div>
+            <h3>Ulaştırma Hizmetleri</h3>
+            <p><strong>Alanın Amacı:</strong> Ulaştırma Hizmetleri alanı; lojistik, taşımacılık ve dağıtım süreçlerini planlayabilen ve yönetebilen bireyler yetiştirir.</p>
+
+            <div class="info-columns">
+                <div>
+                    <h4>Eğitim İçeriği</h4>
+                    <ul>
+                        <li>Lojistik yönetimi</li>
+                        <li>Depo sistemleri</li>
+                        <li>Taşımacılık süreçleri</li>
+                        <li>Sevkiyat planlama</li>
+                        <li>Dijital takip sistemleri</li>
+                        <li>Stok yönetimi</li>
+                        <li>Rota planlama</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Kazandırdığı Beceriler</h4>
+                    <ul>
+                        <li>Lojistik organizasyonu</li>
+                        <li>Planlama ve takip</li>
+                        <li>Depo yönetimi</li>
+                        <li>Dijital sistem kullanımı</li>
+                        <li>Zaman yönetimi</li>
+                        <li>Ekip çalışması</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Kariyer Olanakları</h4>
+                    <ul>
+                        <li>Lojistik personeli</li>
+                        <li>Depo sorumlusu</li>
+                        <li>Sevkiyat personeli</li>
+                        <li>Operasyon destek elemanı</li>
+                        <li>Kargo ve taşımacılık personeli</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Üniversite Bölümleri</h4>
+                    <ul>
+                        <li>Lojistik Yönetimi</li>
+                        <li>Ulaştırma ve Lojistik</li>
+                        <li>Uluslararası Ticaret</li>
+                        <li>İşletme</li>
+                        <li>Dış Ticaret</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="school" id="okul">
+    <img src="assets/okul.jpg" alt="KAMETAL okul binası">
+    <div>
+        <h2>Okulumuz Hakkında</h2>
+        <p>
+            KAMETAL, mesleki ve teknik eğitimi uygulamalı öğretim anlayışıyla birleştirir.
+            Öğrencilerin hem akademik hem de mesleki becerilerini geliştirmeyi hedefler.
+        </p>
+        <p>
+            Alan eğitimleri, sektör ihtiyaçlarına uygun beceriler kazandırarak öğrencilerin
+            iş hayatına ve yükseköğretime daha donanımlı hazırlanmasına katkı sağlar.
+        </p>
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature">🎓<h3>Mesleki Eğitim</h3><p>Alan odaklı uygulamalı öğrenme.</p></div>
+    <div class="feature">💻<h3>Teknolojik Yaklaşım</h3><p>Dijital çağın ihtiyaçlarına uygun içerikler.</p></div>
+    <div class="feature">💼<h3>Staj Bilinci</h3><p>İş hayatına hazırlık ve sorumluluk.</p></div>
+    <div class="feature">👥<h3>Güçlü Kadro</h3><p>Öğrenci gelişimini destekleyen eğitim ortamı.</p></div>
+</section>
+
+<section class="qr-section">
+    <div>
+        <h2>Broşürdeki QR Kod İçin Hazır</h2>
+        <p>Bu site GitHub Pages üzerinde yayınlandıktan sonra QR kod doğrudan bu adrese bağlanabilir.</p>
+    </div>
+    <div class="qr-placeholder">
+        <span>QR</span>
+        <small>Site linkiyle oluşturulacak</small>
+    </div>
+</section>
+
+<section class="contact" id="iletisim">
+    <h2>Detaylı Bilgi</h2>
+    <p>Okulumuz hakkında daha fazla bilgi almak için resmi web sitemizi ve Instagram hesabımızı ziyaret edebilirsiniz.</p>
+
+    <div class="buttons center">
+        <a class="btn red" href="https://kametal.meb.k12.tr/" target="_blank">Resmi Site</a>
+        <a class="btn" href="https://www.instagram.com/kametal06?igsh=dGVtbzFpYTJ1N3Fo" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <img src="assets/kametal-logo.png" alt="KAMETAL">
+            <div>
+                <h3>KAMETAL</h3>
+                <p>Kahramankazan Ticaret Mesleki ve Teknik Anadolu Lisesi</p>
+            </div>
+        </div>
+
+        <div>
+            <h4>Bağlantılar</h4>
+            <a href="#alanlar">Alanlarımız</a>
+            <a href="#detaylar">Alan Detayları</a>
+            <a href="#okul">Okulumuz</a>
+            <a href="#iletisim">İletişim</a>
+        </div>
+
+        <div class="footer-meb">
+            <img src="assets/meb-logo.png" alt="MEB">
+            <p>T.C. Millî Eğitim Bakanlığı</p>
+        </div>
+    </div>
+
+    <div class="copy">© 2026 KAMETAL - Tüm Hakları Saklıdır.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
